@@ -1,0 +1,20 @@
+    /* Larger view styles */
+    #hamburger {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #nav-menu li {
+        margin: 0 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
