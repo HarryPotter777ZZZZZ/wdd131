@@ -31,6 +31,13 @@ h1 {
     color: white
 }
 
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: navy;
+    color: white
+}
+
 nav {
     background-color: #36454f;
     margin: 0 auto;
@@ -45,12 +52,13 @@ nav a {
     display: block;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     text-decoration: none;
 }
 
 nav a:hover {
     text-decoration: overline;
+    /* background-color: #3498db; */
 }
 
 .active {
@@ -73,6 +81,27 @@ main {
     grid-template-columns: 2fr 1fr;
     gap: 20px;
     padding: 20px 0;
+    /* border-top: 5px solid navy; */
+    /* background-image: linear-gradient(to bottom, blue 5px, transparent 5px); */
+    /* Adjust thickness (5px) and color */
+}
+
+.imgme {
+    /* width: 150px;
+    height: auto; */
+    float: right;
+}
+
+.msc {
+    /* width: 150px;
+    height: auto; */
+    float: left;
+}
+
+.italic-caption {
+    font-style: italic;
+    text-align: center;
+    color: gray;
 }
 
 .card {
