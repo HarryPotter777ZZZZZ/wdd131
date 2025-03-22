@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #0066cc;
+    /* Example flag color */
+    --secondary-color: #ffd700;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.weather::after {
+    content: "⛅";
+    display: none;
+    /* Hidden in mobile */
+}
+
+/* Mobile layout styles */

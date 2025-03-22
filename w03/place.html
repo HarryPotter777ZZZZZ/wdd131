@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russia/Place Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 767px)">
+            <img src="images/hero-large.webp" alt="Scenic view of Russia/Moscow" loading="lazy">
+        </picture>
+        <h1>Russia/Harry Ushenin</h1>
+    </header>
+
+    <main>
+        <section class="info-card">
+            <h2>Key Facts</h2>
+            <p>Population: 147 mln</p>
+            <p>Capital: Moscow</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-content">
+                <p>Temperature: <span id="temp">10</span>°C</p>
+                <p>Wind Speed: <span id="wind-speed">15</span> km/h</p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="current-year"></span> | Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+
+</html>

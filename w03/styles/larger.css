@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .weather::after {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .info-card {
+        order: -1;
+    }
+}
