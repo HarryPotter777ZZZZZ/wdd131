@@ -15,7 +15,9 @@ body {
 }
 
 header {
-    background-color: background-color: rgba(9, 9, 87, 0.753);
+    background-color: rgba(29, 77, 114, 1);
+    /*0.753*/
+    /* background-color: rgba(9, 9, 87, 0.753); */
     /* navy; */
     /* #2c3e50; */
     /*#ddd; */
@@ -31,7 +33,9 @@ h1 {
     text-align: center;
     color: white;
     padding: 1rem 0 1rem 0;
-    background-color: rgba(9, 9, 87, 0.753);
+    background-color: rgba(29, 77, 114, 1);
+    /*0.753*/
+    /*rgba(9, 9, 87, 0.753); */
 }
 
 h2 {
@@ -39,7 +43,9 @@ h2 {
     padding: 1rem 0 1rem 0;
     font-size: 1.5rem;
     text-align: center;
-    background-color: rgba(9, 9, 87, 0.753);
+    background-color: rgba(29, 77, 114, 1);
+    /*0.753*/
+    /* background-color: rgba(9, 9, 87, 0.753); */
     /*navy*/
     color: white
 }
@@ -110,11 +116,8 @@ main {
 }
 
 hr {
-
     border: 0;
-
     border-top: 2px solid purple;
-
 }
 
 .msc {
@@ -201,7 +204,9 @@ a:active {
 } */
 
 footer {
-    background-color: rgba(9, 9, 87, 0.753);
+    background-color: rgba(29, 77, 114, 1);
+    /*0.753*/
+    /* background-color: rgba(9, 9, 87, 0.753); */
     /* navy; */
     /* #2c3e50; */
     /*#ddd; */
