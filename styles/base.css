@@ -15,7 +15,8 @@ body {
 }
 
 header {
-    background-color: navy;
+    background-color: background-color: rgba(9, 9, 87, 0.753);
+    /* navy; */
     /* #2c3e50; */
     /*#ddd; */
     text-align: center;
@@ -28,15 +29,18 @@ header {
 h1 {
     font-size: 2rem;
     text-align: center;
-    color: white
+    color: white;
+    padding: 1rem 0 1rem 0;
+    background-color: rgba(9, 9, 87, 0.753);
 }
 
 h2 {
     border-radius: 8px 8px 0 0;
-
+    padding: 1rem 0 1rem 0;
     font-size: 1.5rem;
     text-align: center;
-    background-color: navy;
+    background-color: rgba(9, 9, 87, 0.753);
+    /*navy*/
     color: white
 }
 
@@ -197,7 +201,8 @@ a:active {
 } */
 
 footer {
-    background-color: navy;
+    background-color: rgba(9, 9, 87, 0.753);
+    /* navy; */
     /* #2c3e50; */
     /*#ddd; */
     text-align: center;
