@@ -52,7 +52,8 @@ p {
 nav {
     background-color: #36454f;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 100%
+        /*800px;*/
 }
 
 nav ul {
@@ -101,12 +102,22 @@ main {
     /* width: 150px;
     height: auto; */
     float: right;
+    padding: 1rem;
+}
+
+hr {
+
+    border: 0;
+
+    border-top: 2px solid purple;
+
 }
 
 .msc {
     /* width: 150px;
     height: auto; */
     float: left;
+    padding: 1rem;
 }
 
 .italic-caption {
@@ -170,7 +181,8 @@ a:hover {
 
 /* Active (clicked) state */
 a:active {
-    color: #ff4500;
+    color: greenyellow;
+    /* #ff4500; */
     /* Orange */
 }
 
