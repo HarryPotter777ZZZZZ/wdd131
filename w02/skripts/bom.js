@@ -6,7 +6,8 @@ if (input.value.trim() !== '') {
     const li = document.createElement('li');
 
     const deleteButton = document.createElement('button');
-
+    
+    // if (input.value.trim() !== '') {
     li.textContent = input.value;
 
     deleteButton.textContent = '❌';
