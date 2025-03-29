@@ -1,17 +1,25 @@
+if (input.value.trim() !== '') {
+    const input = document.querySelector('#favchap');
+    const button = document.querySelector('button');
+    const list = document.querySelector('______'); // you need to fill in the blank to reference the HTML element that is a unordered list element.
 
-const input = document.querySelector('#favchap');
-const button = document.querySelector('button');
-const list = document.querySelector('______'); // you need to fill in the blank to reference the HTML element that is a unordered list element.
+    const li = document.createElement('li');
 
-const li = document.createElement('li');
+    const deleteButton = document.createElement('button');
 
-const deleteButton = document.createElement('button');
+    li.textContent = input.value;
 
-li.textContent = input.value;
+    deleteButton.textContent = '❌';
 
-deleteButton.textContent = '❌';
+    li.append(deleteButton);
 
-li.append(deleteButton);
+    list.append(li);
+}
 
-list.append(li);
+button.addEventListener('click', function () {
+    // Code to execute when the button is clicked
+});
 
+input.value = '';
+
+input.focus();
