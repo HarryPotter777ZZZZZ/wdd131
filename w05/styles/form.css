@@ -1,0 +1,23 @@
+form {
+    display: grid;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.rating {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 2rem;
+}
+
+@media (max-width: 32.5em) {
+    form {
+        padding: 1rem;
+    }
+
+    .rating {
+        font-size: 1.5rem;
+    }
+}
